@@ -15,7 +15,7 @@ use Payum\Action\PaymentAwareAction;
 use Payum\Exception\LogicException;
 use Payum\Exception\RequestNotSupportedException;
 use Payum\Request\SecuredCaptureRequest;
-use Sylius\Bundle\CoreBundle\Model\OrderInterface;
+use Sylius\Bundle\OrderBundle\Model\OrderInterface;
 use Sylius\Bundle\PayumBundle\Payum\Request\ObtainCreditCardRequest;
 use Symfony\Component\HttpFoundation\Request;
 
