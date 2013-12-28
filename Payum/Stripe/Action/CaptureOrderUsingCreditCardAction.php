@@ -16,7 +16,7 @@ use Payum\Bridge\Spl\ArrayObject;
 use Payum\Exception\RequestNotSupportedException;
 use Payum\Request\CaptureRequest;
 use Payum\Request\SecuredCaptureRequest;
-use Sylius\Bundle\CoreBundle\Model\OrderInterface;
+use Sylius\Bundle\OrderBundle\Model\OrderInterface;
 use Sylius\Bundle\PayumBundle\Payum\Request\ObtainCreditCardRequest;
 
 class CaptureOrderUsingCreditCardAction extends PaymentAwareAction
